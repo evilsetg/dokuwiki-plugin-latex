@@ -3,6 +3,8 @@
 $conf['latex_path'] = 'latex';
 $conf['dvips_path'] = 'dvips';
 $conf['convert_path'] = 'convert';
+$conf['ghostscript_path'] = 'gs';
+$conf['ghostscript_options'] = '-r150 -sDEVICE=pngalpha';
 $conf['convert_options'] = '-density 120 -trim -transparent "#FFFFFF"';
 $conf['identify_path'] = 'identify';
 $conf['image_format'] = 'png';
