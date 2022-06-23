@@ -14,7 +14,7 @@ require_once(dirname(__FILE__).'/class.latexrender.php');
  * All DokuWiki plugins to extend the parser/rendering mechanism
  * need to inherit from this class
  */
-class syntax_plugin_latex_common extends DokuWiki_Syntax_Plugin {
+abstract class syntax_plugin_latex_common extends DokuWiki_Syntax_Plugin {
 	var $_latex;
 	
    /**
